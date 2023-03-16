@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <Formulario tareas={tareas} setTareas={setTareas} />
-      <Tareas tareas={tareas} />
+      <Tareas tareas={tareas} setTareas={setTareas} />
     </div>
   )
 }

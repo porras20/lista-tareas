@@ -56,14 +56,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #E7AB9A;
   padding: 1rem;
   border-radius: 10px;
   margin: 1rem;
 }
 
-.card .delete, .edit, .check{
-  font-size: 1.5rem;
+.card .delete, .edit, .pendiente, .hecho{
+  font-size: 1.3rem;
   margin: 0 2px;
   cursor: pointer;
+}
+
+.pendiente{
+  background-color: #E7AB9A;
+  margin: 1rem;
+}
+.hecho{
+  color: #fff;
+  background-color: #53701d;
+  margin: 1rem;
 }
